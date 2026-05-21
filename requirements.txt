@@ -6,6 +6,6 @@ xgboost
 shap
 matplotlib
 sqlalchemy
-iimbalanced-learn
+imbalanced-learn
 joblib
 seaborn
