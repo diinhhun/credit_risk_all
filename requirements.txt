@@ -5,9 +5,7 @@ scikit-learn
 xgboost
 shap
 matplotlib
-urllib
 sqlalchemy
-imblearn
+iimbalanced-learn
 joblib
-urllib
 seaborn
