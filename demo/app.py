@@ -190,7 +190,7 @@ def clip_to_training_bounds(df):
 # KHỐI DỰ ĐOÁN CHÍNH
 # =============================================================
 if run:
-  if emp > (age - 18):
+    if emp > (age - 18):
         st.warning(f"⚠️ Khách hàng {age} tuổi không thể có {emp} năm thâm niên làm việc. (Giả định tuổi bắt đầu lao động tối thiểu là 18, nên thâm niên tối đa chỉ có thể là {age - 18} năm). Vui lòng kiểm tra lại!")
         st.stop()
 
