@@ -136,7 +136,7 @@ if income <= 0: income = 1
 _HOME_OPTS  = {"RENT": "RENT (Thuê)", "MORTGAGE": "MORTGAGE (Thế chấp)", "OWN": "OWN (Sở hữu)", "OTHER": "OTHER (Khác)"}
 home_val   = st.sidebar.selectbox("Home Ownership", list(_HOME_OPTS.keys()), format_func=lambda x: _HOME_OPTS[x])
 
-emp    = st.sidebar.number_input("Employment Length – years", 0.0, 50.0, 5.0, 0.5)
+emp    = st.sidebar.number_input("Employment Length – years", 0.0, None, 5.0, 0.5)
 
 _DEF_OPTS = {0: "Không (No)", 1: "Có (Yes)"}
 default_val = st.sidebar.selectbox("Lịch sử vỡ nợ trước đây", list(_DEF_OPTS.keys()), format_func=lambda x: _DEF_OPTS[x])
